@@ -11,3 +11,4 @@ In the models directory, we have three different classes for dogs, cats, and bir
 1. Create three routes in our `application_controller` for "/dogs", "/cats", and "/birds". In each route, create three new instances of that pet's class, ie `Dog.new("Fido", "Red","Irish Setter/Labrador", "Mellow")` Each should load up an instance variable containing an array of each pet. After, you should render the corresponding erb file from the views folder. 
 
 2. In each view, iterate through the array you've created and display each pet's name, color, temperament, and breed. 
+<a href='https://learn.co/lessons/hs-petfinder-routes' data-visibility='hidden'>View this lesson on Learn.co</a>
